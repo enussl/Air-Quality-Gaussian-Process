@@ -73,7 +73,6 @@ var = ((pred[["lci"]][["f"]]-pred[["mean"]][["f"]])/qnorm(0.975))^2
 hist(var, breaks = 10, prob = T)
 
 # Plot the data on the plane to see if that spike might be justified.
-register_google("AIzaSyCJ6qkhQv12nEuTnuGtUrc9uU8F5foPFCU")
 
 kigali = get_map(location = "kigali", zoom = 12)
 kigalimap = ggmap(kigali)
