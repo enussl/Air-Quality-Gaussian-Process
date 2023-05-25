@@ -1,33 +1,5 @@
-##### Purpose: Clean and preprocess mobile air quality data prior to running Gaussian process models 
-##### Author: Niál Perry (nial.thomas.perry@gmail.com)
-##### Date: May 2023
-
-
 # Clear variables
 rm(list = ls())
-
-# Install used packages
-packages <- c("dplyr", "data.table", "lubridate", "zoo", "BayesGPfit"
-              , "plotly", "ggplot2", "ggmap", "pacman", "slider", "sf"
-              , "osmdata", "geosphere", "crs", "rlist")
-install.packages(packages, repos="https://stat.ethz.ch/CRAN/")
-
-# Load used packages
-library(dplyr)
-library(data.table)
-library(lubridate)
-library(zoo)
-library(BayesGPfit)
-library(plotly)
-library(ggplot2)
-library(ggmap)
-library(pacman)
-library(slider)
-library(sf)
-library(osmdata)
-library(geosphere)
-library(crs)
-library(rlist)
 
 # Retrieve filepaths from Python
 # Ignore this line if not invoking subprocess() in Python
@@ -46,7 +18,28 @@ data_cleaned_filepath <- args[2]
 #Or assign filepath manually:
 # data_cleaned_filepath <- "C:\Users\nial\OneDrive\Documents\ETH-Zürich-DESKTOP-9E8KBS8\AQ Data Collection\data_cleaned_.csv"
 
+# Install used packages
+packages <- c("dplyr", "data.table", "lubridate", "zoo", "BayesGPfit"
+             , "plotly", "ggplot2", "ggmap", "pacman", "slider", "sf"
+             , "osmdata", "geosphere", "crs", "rlist")
+install.packages(packages, repos="https://stat.ethz.ch/CRAN/")
 
+# Load used packages
+library(dplyr)
+library(data.table)
+library(lubridate)
+library(zoo)
+library(BayesGPfit)
+library(plotly)
+library(ggplot2)
+library(ggmap)
+library(pacman)
+library(slider)
+library(sf)
+library(osmdata)
+library(geosphere)
+library(crs)
+library(rlist)
 
 # Defining the helperfunctions
 data_cleanse <- function(data_alldata){
