@@ -53,3 +53,6 @@ rsconnect/
 
 # Most important for our purpose: do not push/pull the raw data everytime
 Data
+
+# .csv files
+.csv
