@@ -1,0 +1,10 @@
+\fill[greenPM] (1.00, 4.97) circle (0.1);
+\fill[lightgreenPM] (1.05, 5.03) circle (0.1);
+\fill[lightgreenPM] (1.47, 5.13) circle (0.1);
+\fill[lightgreenPM] (1.65, 4.94) circle (0.1);
+\fill[yellowPM] (1.96, 5.02) circle (0.1);
+\fill[yellowPM] (2.17, 4.99) circle (0.1);
+\fill[lightgreenPM] (2.50, 5.04) circle (0.1);
+\fill[yellowPM] (2.82, 5.11) circle (0.1);
+\fill[greenPM] (2.94, 4.84) circle (0.1);
+\draw[black, thick] (0,0) rectangle (5,5);

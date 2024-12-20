@@ -1,0 +1,7 @@
+\fill[redPM] (5.03, 0.62) circle (0.1);
+\fill[orangePM] (4.82, 0.53) circle (0.1);
+\fill[orangePM] (4.65, 0.22) circle (0.1);
+\fill[yellowPM] (4.48, 0.40) circle (0.1);
+\fill[yellowPM] (4.10, 0.20) circle (0.1);
+\fill[yellowPM] (3.92, -0.07) circle (0.1);
+\draw[black, thick] (0,0) rectangle (5,5);

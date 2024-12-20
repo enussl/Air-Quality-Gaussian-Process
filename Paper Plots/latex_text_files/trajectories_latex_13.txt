@@ -1,0 +1,15 @@
+\fill[lightgreenPM] (0.84, -0.05) circle (0.1);
+\fill[lightgreenPM] (1.24, -0.01) circle (0.1);
+\fill[lightgreenPM] (1.29, 0.15) circle (0.1);
+\fill[lightgreenPM] (1.67, 0.10) circle (0.1);
+\fill[lightgreenPM] (1.94, -0.07) circle (0.1);
+\fill[greenPM] (1.88, -0.09) circle (0.1);
+\fill[greenPM] (2.42, -0.11) circle (0.1);
+\fill[yellowPM] (2.59, -0.06) circle (0.1);
+\fill[lightgreenPM] (2.77, -0.18) circle (0.1);
+\fill[lightgreenPM] (3.06, -0.00) circle (0.1);
+\fill[yellowPM] (3.25, 0.02) circle (0.1);
+\fill[greenPM] (3.46, -0.01) circle (0.1);
+\fill[greenPM] (3.67, -0.15) circle (0.1);
+\fill[lightgreenPM] (3.71, 0.07) circle (0.1);
+\draw[black, thick] (0,0) rectangle (5,5);

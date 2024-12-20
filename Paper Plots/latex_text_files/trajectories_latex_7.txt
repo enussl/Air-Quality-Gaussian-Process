@@ -1,0 +1,15 @@
+\fill[yellowPM] (4.50, 0.04) circle (0.1);
+\fill[orangePM] (4.70, 0.30) circle (0.1);
+\fill[yellowPM] (4.79, 0.17) circle (0.1);
+\fill[yellowPM] (4.82, 0.71) circle (0.1);
+\fill[orangePM] (4.79, 0.86) circle (0.1);
+\fill[yellowPM] (4.90, 1.09) circle (0.1);
+\fill[orangePM] (5.02, 1.41) circle (0.1);
+\fill[redPM] (5.07, 1.50) circle (0.1);
+\fill[yellowPM] (4.71, 1.88) circle (0.1);
+\fill[yellowPM] (4.99, 2.03) circle (0.1);
+\fill[yellowPM] (4.78, 2.21) circle (0.1);
+\fill[orangePM] (5.01, 2.46) circle (0.1);
+\fill[yellowPM] (4.96, 2.69) circle (0.1);
+\fill[yellowPM] (4.91, 2.88) circle (0.1);
+\draw[black, thick] (0,0) rectangle (5,5);
